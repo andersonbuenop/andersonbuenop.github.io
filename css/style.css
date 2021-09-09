@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 body {
     background-color: #18181800;
     font-family: 'https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap';
     margin: 72px 0;
+}
+.titulo{
+    font-family: 'https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap';
+    font-weight: bolder;
 }
