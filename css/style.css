@@ -1,9 +1,65 @@
-body {
-    background-color: #18181800;
-    font-family: 'https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap';
-    margin: 72px 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.titulo{
+
+body {
+    background-image: url(../img/jacarei-bg.jpg);
+    font-family: 'https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap';
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    padding: 20px;
+    background-color: #0e0b0be1;
+}
+
+span {
+    font-weight: bolder;  
+}
+h1, h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(248, 248, 248);
+  }
+
+  h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+  }
+
+   .content, .botton, .redesSociais {
+    background-color: #ffffffbd;
+    padding: 5%;
+    text-align: justify;
+  }
+  .text{
+    text-indent: 40px
+  }
+  
+  p {
+    padding-bottom: 30px;
+  }
+  
+  .video {
+    text-align: center;
+    margin: 5% auto;
+  }
+
+   .titulo{
     font-family: 'https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap';
     font-weight: bolder;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    display: block;
+}
+a {
+    padding: 1%;
 }
